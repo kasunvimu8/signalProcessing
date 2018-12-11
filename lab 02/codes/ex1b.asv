@@ -1,0 +1,6 @@
+t = [0:0.01:2];
+x = sin(2*pi*t);
+
+plot(t,x,t,zeros(size(t)),'k--'), ylim([-1.1 1.1])
+xlabel('t [sec]'); 
+ylabel('x(t)');
